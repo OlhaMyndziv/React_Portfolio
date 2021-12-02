@@ -23,7 +23,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 Image of downloaded application.
 ![alt text](src/assets/images/3.png)
 ![alt text](src/assets/images/30.png)
-![alt text](./assets/images/35.png)
+![alt text](src/assets/images/35.png)
 
 
 ## Technologies
