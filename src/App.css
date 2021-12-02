@@ -1,0 +1,170 @@
+/* ABOUT */
+  .bio-photo {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10%;
+    opacity: 0.8;
+  }
+  /* verch */
+  .App-header {
+    max-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(196, 196, 42);
+  }
+  .App {
+    text-align: center;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }  
+
+  .App-link {
+    color: yellow;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+   @media screen and (max-width: 600px) {
+    .App-header {
+      display: block
+    }
+  } 
+  
+  /* CONTACT */
+  label {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  input {
+    width: 50%;
+    border-radius: 10px;
+    background-image: linear-gradient(170deg, rgb(77, 111, 165) 10%, rgb(196, 196, 42) 70%);
+  }
+  
+  textarea {
+    width: 50%;
+    border-radius: 10px;
+    background-image: linear-gradient(170deg, rgb(77, 111, 165) 10%, rgb(196, 196, 42) 70%);
+  }
+  
+  .button1 {
+    border-radius: 20%;
+    padding: 10px;
+    background-color: rgb(77, 111, 165);
+  } 
+  
+  /* NAV */
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-item {
+    justify-content: space-between;
+    padding: 15px;
+    text-align: end;
+  }
+  span {
+    cursor: pointer;
+  }
+  
+  span:hover {
+    color: rgb(10, 82, 199);
+  }
+  .navActive {
+    color: black;
+  } 
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 600px) {
+    .nav-item {
+        padding: 5px;
+    }
+  } 
+  /* PROJECTS */
+  .tile {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .screenshot7 {
+    background-image: url('./assets/images/screenshot7.png');
+  }
+  
+  .screenshot8 {
+    background-image: url('./assets/images/screenshot8.png');
+  }
+  
+  .horisen {
+    background-image: url('./assets/images/horisen.png');
+  }
+  
+  .image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    height: 100%;
+    align-content: center;
+    position: relative;
+    padding-top: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .image:hover {
+    opacity: 1;
+  }
+  /* dod pokr */
+  .middle:hover {
+    opacity: 0.8;
+    background-color:rgb(159, 213, 245);
+    border-radius: 24px;
+  }
+  
+  .text {
+    color: black;
+    opacity: 1;
+  }
+  .wrapper {
+    padding-top: 50px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    margin: auto;
+  } 
+  

@@ -1,0 +1,24 @@
+[
+    {
+        "id" : 0,
+        "name": "VGD",
+        "url": "https://vast-lake-35863.herokuapp.com/",
+        "github": "https://github.com/seanscraig/video-game-database",
+        "image" : "screenshot7"
+    },
+    {
+        "id" : 1,
+        "name": "Nonprofit Career Planner",
+        "url": "https://sthompsonchicago.github.io/Nonprofit-Career-Planner/",
+        "github": "https://github.com/SThompsonChicago/Nonprofit-Career-Planner",
+        "image" : "screenshot8"
+    }, 
+    {
+        "id" : 2,
+        "name": "Horiseon",
+        "url": "https://olhamyndziv.github.io/seo-code-refector/",
+        "github": "https://github.com/OlhaMyndziv/seo-code-refector",
+        "image" : "horisen"
+    }
+    
+]
