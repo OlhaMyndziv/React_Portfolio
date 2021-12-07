@@ -36,7 +36,7 @@ Project is created with
 To get started clone this repository using 
 <br>
 ```terminal
-git clone git@github.com:BennAsabir/react-portfolio.git
+git clone git@github.com:OlhaMyndziv/React_Portfolio.git
 ```
 Install dependencies 
 ```terminal
